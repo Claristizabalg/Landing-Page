@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#Git {
+width: 30px;
+height: 30px;
+
+}
+
+
+img {
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+
