@@ -29,7 +29,7 @@ export const EstudiosPage = () => {
       item lg={4} 
       >
       
-        <img src="/public/Estudios.PNG" alt="Estudios"/>
+        <img src="Estudios.PNG" alt="Estudios"/>
 
 
     </Grid>

@@ -76,7 +76,7 @@ export const PortafolioPage = () => {
     
         <Avatar 
           alt="APPtoDO"
-          src="/public/APPtoDO.PNG"
+          src="APPtoDO.PNG"
           sx={{ width:250, height:250, 
           boxShadow: "7px 10px 10px rgba(0, 0, 0, 0.3)",
           display: "flex",
@@ -121,7 +121,7 @@ export const PortafolioPage = () => {
     <Box sx={{padding:1,}}>
         <Avatar 
           alt="LandingPage"
-          src="/public/Landing.PNG"
+          src="Landing.PNG"
           sx={{ width:250, height:250, 
           boxShadow: "7px 10px 10px rgba(0, 0, 0, 0.3)",
           display: "flex",
