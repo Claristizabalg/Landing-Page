@@ -61,7 +61,7 @@ export const ExperienciaPage = () => {
       item lg={4} 
       >
       
-        <img src="/src/assets/Experiencia.PNG" alt="Estudios"/>
+        <img src="/public/Experiencia.PNG" alt="Estudios"/>
 
     </Grid>
     

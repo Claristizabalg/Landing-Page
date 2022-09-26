@@ -29,7 +29,7 @@ export const EstudiosPage = () => {
       item lg={4} 
       >
       
-        <img src="/src/assets/Estudios.PNG" alt="Estudios"/>
+        <img src="/public/Estudios.PNG" alt="Estudios"/>
 
 
     </Grid>
@@ -98,7 +98,7 @@ Universidad Nacional Abierta y a Distancia (UNAD)
           boxShadow={20}
           > 
 
-Estudiante de programación 
+Estudiante en Desarrollo de software 
 PLATZI - Udemy <br></br>
 Año 2022
 

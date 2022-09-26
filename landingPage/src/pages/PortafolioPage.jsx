@@ -75,8 +75,8 @@ export const PortafolioPage = () => {
       <Grid item lg={3}>
     
         <Avatar 
-          alt="CristianA"
-          src="https://drive.google.com/file/d/1O1qu19xgN-5KONHR5jMpSaZbMCvNFJbB/view?usp=sharing"
+          alt="APPtoDO"
+          src="/public/APPtoDO.PNG"
           sx={{ width:250, height:250, 
           boxShadow: "7px 10px 10px rgba(0, 0, 0, 0.3)",
           display: "flex",
@@ -95,7 +95,7 @@ export const PortafolioPage = () => {
                 textTransform: 'none',
                 
               }} 
-              href="https://github.com/Claristizabalg"
+              
               >GitHub <GitHubIcon/> </Typography></Button>
           </Box>
         </Grid>
@@ -103,7 +103,7 @@ export const PortafolioPage = () => {
           <Box sx={{ 
                 textAlign: 'center',
               }}>
-              <Button variant="contained" ><Typography variant='h6'sx={{
+              <Button href='https://grand-narwhal-03ce9b.netlify.app/' variant="contained" ><Typography variant='h6'sx={{
                 fontFamily: 'system-ui',
                 fontWeight: 'bold',
                 fontSize: 17,
@@ -120,8 +120,8 @@ export const PortafolioPage = () => {
     <Grid item lg={6}>
     <Box sx={{padding:1,}}>
         <Avatar 
-          alt="CristianA"
-          src="/src/assets/Landing.PNG"
+          alt="LandingPage"
+          src="/public/Landing.PNG"
           sx={{ width:250, height:250, 
           boxShadow: "7px 10px 10px rgba(0, 0, 0, 0.3)",
           display: "flex",
