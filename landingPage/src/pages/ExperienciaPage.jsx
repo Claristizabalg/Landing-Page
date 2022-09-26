@@ -8,7 +8,7 @@ export const ExperienciaPage = () => {
       flexGrow:1,
       backgroundColor: "white",
       boxShadow: "0px 1px 20px",
-      paddingTop: 3,
+      paddingTop: 15,
       paddingBottom: 7,
            
     }}
@@ -47,9 +47,8 @@ export const ExperienciaPage = () => {
           backgroundColor="white"
           borderRadius= {1}
           boxShadow={20}
-          > 
-          Emprendedor, con iniciativa y capacidad de organización y gestión. Capacidad de análisis conducente a la resolución de problemas. Me considero una persona activa, habituado al trabajo bajo presión, en equipo y con gran sentido de responsabilidad y con alta vocación de servicio. Con experiencia en liderar equipos de trabajo, con gran imaginación e iniciativa para desarrollar ideas nuevas. Poseo conocimiento en todo el ciclo de vida del desarrollo de software.
-        </Typography>
+          >Mi experiencia en el área de desarrollo de software inició en Abril del 2022 en <strong>Servicios Especializados de Tecnología (SETI)</strong>  Brindando soporte en el área de incidentes del banco <strong>Banistmo Panamá</strong> . 
+           </Typography>
     </Grid>
     <Grid sx={{
         
@@ -66,15 +65,7 @@ export const ExperienciaPage = () => {
 
     </Grid>
     
-    
-    
   </Grid>
-
-
-
-
-
-
  </Container>
      
   )

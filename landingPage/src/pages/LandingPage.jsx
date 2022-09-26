@@ -1,7 +1,6 @@
 import { Box } from '@mui/material'
 import React from 'react'
 import { InicioPage } from './InicioPage'
-import { PerfilPage } from './PerfilPage'
 import { EstudiosPage } from './EstudiosPage'
 import { ExperienciaPage } from './ExperienciaPage'
 import { PortafolioPage } from './PortafolioPage'
@@ -19,9 +18,6 @@ export const LandingPage = () => {
     </Box>
     <Box id="experiencia">
     <ExperienciaPage/>
-    </Box>
-    <Box id="perfil">
-    <PerfilPage/>
     </Box>
     <Box id="portafolio">
     <PortafolioPage/>

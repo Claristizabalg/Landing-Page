@@ -10,7 +10,7 @@ export const EstudiosPage = () => {
         flexGrow:1,
         backgroundColor: "#F2D335",
         boxShadow: "0px 1px 20px",
-        paddingTop: 3,
+        paddingTop: 15,
         paddingBottom: 7,
             
       }}
@@ -57,7 +57,7 @@ export const EstudiosPage = () => {
       </Grid>
       <Typography variant="h6" 
           color="initial"
-          textAlign="justify" 
+          textAlign="center" 
           marginY={5} 
           marginX={10}
           padding={1}
@@ -65,7 +65,42 @@ export const EstudiosPage = () => {
           borderRadius= {1}
           boxShadow={20}
           > 
-          Emprendedor, con iniciativa y capacidad de organización y gestión. Capacidad de análisis conducente a la resolución de problemas. Me considero una persona activa, habituado al trabajo bajo presión, en equipo y con gran sentido de responsabilidad y con alta vocación de servicio. Con experiencia en liderar equipos de trabajo, con gran imaginación e iniciativa para desarrollar ideas nuevas. Poseo conocimiento en todo el ciclo de vida del desarrollo de software.
+Titulo: Técnico en Línea de Aviones (TLA) 
+Escuela de Aviación INEC.<br></br>
+Añ0 2004
+
+
+        </Typography>
+        <Typography variant="h6" 
+          color="initial"
+          textAlign="center" 
+          marginY={5} 
+          marginX={10}
+          padding={1}
+          backgroundColor="white"
+          borderRadius= {1}
+          boxShadow={20}
+          > 
+Finalizando Licenciatura en Inglés como Lengua Extrajera.
+Universidad Nacional Abierta y a Distancia (UNAD)
+
+
+        </Typography>
+        <Typography variant="h6" 
+          color="initial"
+          textAlign="center" 
+          marginY={5} 
+          marginX={10}
+          padding={1}
+          backgroundColor="white"
+          borderRadius= {1}
+          boxShadow={20}
+          > 
+
+Estudiante de programación 
+PLATZI - Udemy <br></br>
+Año 2022
+
         </Typography>
     </Grid>
     
