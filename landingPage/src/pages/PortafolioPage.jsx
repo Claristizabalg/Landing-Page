@@ -152,7 +152,7 @@ export const PortafolioPage = () => {
           <Box sx={{ 
                 textAlign: 'center',
               }}>
-              <Button variant="contained" >
+              <Button href='https://jazzy-frangollo-8fb7bf.netlify.app/' variant="contained" >
                 <Typography variant='h6'sx={{
                   fontWeight: 'bold',
                   fontFamily: 'system-ui',
