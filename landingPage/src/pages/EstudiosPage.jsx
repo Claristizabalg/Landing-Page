@@ -31,6 +31,7 @@ export const EstudiosPage = () => {
       
         <img src="/src/assets/Estudios.PNG" alt="Estudios"/>
 
+
     </Grid>
     
     <Grid item lg={8} sm={12}>

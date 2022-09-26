@@ -1,6 +1,7 @@
 import { Alert, Avatar, Button, Container, Grid, Typography, } from '@mui/material'
 import { Box } from '@mui/material'
 import React from 'react'
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 
 export const InicioPage = () => {
@@ -20,7 +21,7 @@ export const InicioPage = () => {
  >
    <Grid  container>
     
-    <Grid item lg={8} sm={12}>
+    <Grid item lg={8} xs={12}>
     
         <Grid container sx={{
           justifyContent: 'center',
@@ -54,13 +55,13 @@ export const InicioPage = () => {
         <Box sx={{ 
           textAlign: 'center',
         }}>
-        <Button  variant="contained"><Typography variant='h6'sx={{
+        <Button href="https://github.com/Claristizabalg" variant="contained"><Typography variant='h6'sx={{
           fontFamily: 'system-ui',
           fontWeight: 'bold',
           fontSize: 30,
           textTransform: 'none',
           
-         }} >GitHub <img id="Git" src="/src/assets/Octicons-mark-github.svg"></img> </Typography></Button>
+         }} >GitHub <GitHubIcon/></Typography></Button>
         </Box>
 
     </Grid>
@@ -69,7 +70,7 @@ export const InicioPage = () => {
     <Box sx={{padding:5,}}>
         <Avatar 
           alt="CristianA"
-          src="/src/assets/foto.jpg"
+          src="https://media-exp1.licdn.com/dms/image/C4E03AQGVdEEALeRIvg/profile-displayphoto-shrink_200_200/0/1650847507398?e=1669852800&v=beta&t=PZTOz1krNLpi2x_j6s52MhsW9ZJi4T5-A74CPhiehYk"
           sx={{ width:250, height:250, 
           boxShadow: "7px 10px 10px rgba(0, 0, 0, 0.3)",
          

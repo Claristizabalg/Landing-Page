@@ -1,6 +1,8 @@
 import { Avatar, Button, Grid, Typography } from '@mui/material'
 import { Box, Container } from '@mui/system'
 import React from 'react'
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 
 export const PortafolioPage = () => {
   return (
@@ -51,16 +53,14 @@ export const PortafolioPage = () => {
       
       <Typography variant="h6" 
           color="initial"
-          textAlign="justify" 
+          textAlign="center" 
           marginY={5} 
           marginX={10}
           padding={1}
           backgroundColor="white"
           borderRadius= {1}
           boxShadow={20}
-          > 
-          Emprendedor, con iniciativa y capacidad de organización y gestión. Capacidad de análisis conducente a la resolución de problemas. Me considero una persona activa, habituado al trabajo bajo.
-        </Typography>
+          > Proyectos realizados en el Diplomado en Desarrollo Front-end con React JS de la Fundación Internacional Maria Luisa de Moreno y LiveVox</Typography>
     </Grid>
     <Grid sx={{
         
@@ -76,7 +76,7 @@ export const PortafolioPage = () => {
     
         <Avatar 
           alt="CristianA"
-          src="/src/assets/APPtoDO.PNG"
+          src="https://drive.google.com/file/d/1O1qu19xgN-5KONHR5jMpSaZbMCvNFJbB/view?usp=sharing"
           sx={{ width:250, height:250, 
           boxShadow: "7px 10px 10px rgba(0, 0, 0, 0.3)",
           display: "flex",
@@ -88,15 +88,15 @@ export const PortafolioPage = () => {
           <Box sx={{ 
                 textAlign: 'center',
               }}>
-              <Button   variant="contained"><Typography variant='h6'sx={{
+              <Button  href='https://github.com/Claristizabalg/To-do-list' variant="contained"><Typography variant='h6'sx={{
                 fontFamily: 'system-ui',
                 fontWeight: 'bold',
-                fontSize: 14,
+                fontSize: 12,
                 textTransform: 'none',
                 
               }} 
               href="https://github.com/Claristizabalg"
-              >GitHub <img id="Git2" src="/src/assets/Octicons-mark-github.svg"></img> </Typography></Button>
+              >GitHub <GitHubIcon/> </Typography></Button>
           </Box>
         </Grid>
         <Grid item lg={1} sx={{padding:1,}}>
@@ -133,7 +133,9 @@ export const PortafolioPage = () => {
           <Box sx={{ 
                 textAlign: 'center',
               }}>
-              <Button  variant="contained">
+              
+              <Button  variant="contained" 
+                href='https://github.com/Claristizabalg/Landing-Page'>
                 <Typography variant='h6'sx={{
                 fontFamily: 'system-ui',
                 fontWeight: 'bold',
@@ -141,7 +143,7 @@ export const PortafolioPage = () => {
                 textTransform: 'none',
                 
                 
-              }} >GitHub <img id="Git2" src="/src/assets/Octicons-mark-github.svg"></img> 
+              }} >GitHub <GitHubIcon/> 
               </Typography>
               </Button>
             </Box>
